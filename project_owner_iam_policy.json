@@ -1,0 +1,46 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "Projectmanager",
+            "Effect": "Allow",
+            "Action": [
+                "codecommit:CreateBranch",
+                "codecommit:UpdatePullRequestDescription",
+                "codecommit:GitPull",
+                "codecommit:UpdatePullRequestApprovalRuleContent",
+                "codecommit:UpdatePullRequestTitle",
+                "codecommit:OverridePullRequestApprovalRules",
+                "codecommit:MergePullRequestBySquash",
+                "codecommit:MergePullRequestByThreeWay",
+                "codecommit:UpdateRepositoryDescription",
+                "codecommit:UpdateRepsositoryName",
+                "codecommit:MergePullRequestByFastForward",
+                "codecommit:CreatePullRequest",
+                "codecommit:CreatePullRequestApprovalRule",
+                "codecommit:GitPush",
+                "codecommit:UpdatePullRequestStatus",
+                "codecommit:UpdatePullRequestApprovalState",
+                "codecommit:DeleteBranch",
+                "codebuild:StopBuild",
+                "codebuild:StartBuild",
+                "codebuild:UpdateProject",
+                "lambda:UpdateFunctionCode",
+                "lambda:AddPermission",
+                "lambda:PublishLayerVersion",
+                "lambda:UpdateFunctionConfiguration",
+                "lambda:AddLayerVersionPermission",
+                "lambda:RemovePermission",
+                "apigateway:PUT",
+                "apigateway:PATCH",
+                "cloudwatch:ListMetrics",
+                "logs:DescribeQueries",
+                "logs:PutMetricFilter",
+                "logs:GetLogRecord",
+                "logs:StartQuery",
+                "logs:StopQuery"
+            ],
+            "Resource": "*"
+        }
+    ]
+}
